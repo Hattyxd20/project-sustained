@@ -12,6 +12,7 @@ const HomePage = ({ homePage, aboutConference, aboutManavRachna }) => {
   return (
     <div className="py-10 px-5 lg:px-10 relative">
       <div className="container mx-auto">
+        <h1 className="text-base text-center mt-5">Organized by School of Engineering and Technology, <br /> Manav Rachna International Institute of Research and Studies, Sector 43, Faridabad, Haryana 121004 <br /> In Association with Sustainable Development Activities  Committee - IEEE India Council</h1>
         <div className="flex flex-col items-center gap-5">
     
 
