@@ -10,13 +10,13 @@ export const Header = () => {
             <Image src={"/mrlogo.png"} width={250} height={250} />
           </div>
 
-          <div className="flex flex-row gap-x-2 items-center">
+          <div className="flex flex-row gap-x-3 items-center">
             <div className="">
               <Image
                 src={'/images/mr-2-pre.png'} height={200} width={200} alt="Image"/>
             </div>
             <div  className="">
-              <Image width={150} height={50} alt="image" src={'/IEEE.webp'}
+              <Image width={110} height={50} alt="image" src={'/IEEE.webp'}
               />
             </div>
             <div className="">

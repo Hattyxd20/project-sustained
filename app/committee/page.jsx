@@ -6,6 +6,7 @@ import {
   accommodation,
   chief_patrons,
   co_convenor,
+  covenors,
   co_patrons,
   conference_chair,
   discipline,
@@ -100,7 +101,20 @@ const Committee = () => {
         </div>
 
         <div className="flex items-start justify-start mt-5">
-          <h3 className="text-secondary">Conference Chair & Convener</h3>
+          <h3 className="text-secondary">Technical Chair</h3>
+        </div>
+
+        <div className="flex flex-col gap-5 mt-5">
+            <div className="flex gap-3 items-center">
+              <p className="text-xl text-center font-unbounded">
+              Prof. (Dr.) Geeta Nijhawan,
+              </p>
+              <p className="text-center text-secondary ">Associate Dean SET, MRIIRS, Faridabad</p>
+            </div>
+        </div>
+
+        <div className="flex items-start justify-start mt-5">
+          <h3 className="text-secondary">Conference Chair</h3>
         </div>
 
         <div className="flex item-start justify-start gap-10 lg:gap-20 mt-5">
@@ -114,8 +128,26 @@ const Committee = () => {
           ))}
         </div>
 
+
         <div className="flex items-start justify-start mt-5">
-          <h3 className="text-secondary">Co - Convener</h3>
+          <h3 className="text-secondary">Convenors</h3>
+        </div>
+
+        <div className="flex flex-col gap-5 mt-5">
+          {covenors.map((list, index) => (
+            <div key={index} className="flex gap-3 items-center">
+              <p className="text-lg text-center font-unbounded">
+                {list.label},
+              </p>
+              <p className="text-center text-secondary">{list.designation}</p>
+            </div>
+          ))}
+        </div>
+
+
+
+        <div className="flex items-start justify-start mt-5">
+          <h3 className="text-secondary">Co - Convenors</h3>
         </div>
 
         <div className="flex flex-col gap-5 mt-5">
