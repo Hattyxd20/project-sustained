@@ -16,11 +16,6 @@ const downloads = [
    },
 
    {  
-    name:"Program Schedule",
-    link:'/call-for-papers'
-   },
-
-   {  
     name:"Guidelines",
     link:'/call-for-papers'
    },
